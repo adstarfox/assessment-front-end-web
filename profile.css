@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+}
+
+/* Header */
+header{
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22%;
+    border-bottom: 3px black solid;
+    text-align: center;
+}
+
+#nav-bar{
+    height: 100%;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-pic{
+    height: 90%;
+    width: 10%;
+    border-radius: 65%;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+} 
+
+.butns{
+    height: 60px;
+    border-radius: 65%;
+    background-color: yellow;
+    font-weight: 600;
+}
+
+/* Main */
+
+main{
+    border: 5px black solid;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+section > h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 5px lightblue;
+}
+
+section{
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    border: 15px black solid;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ul{
+    list-style: disc;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left{
+    text-align: left;
+}

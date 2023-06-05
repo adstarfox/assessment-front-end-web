@@ -1,0 +1,70 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+	text-align: center;
+}
+
+img {
+	max-width: 300px;
+}
+
+#contact-list {
+	width: 250px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+	padding: 0px;
+}
+
+#checkboxes {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#labels {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+label{
+	text-align: center;
+}
+
